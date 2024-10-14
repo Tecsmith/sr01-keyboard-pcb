@@ -18,7 +18,7 @@ A 1-key<small><sup>1</sup></small> *"keyboard"* with QMK f/w.
 ## Planned Features
 
 - [ ] QMK build
-- [ ] MCU *TBD.* *(must be something small; ¿LQFP-32 footprint => `STM32F072C8`?)*
+- [ ] MCU *TBD.* *(must be something small; ¿LQFP-32 footprint => `STM32F042K6T6`?)*
 - A few options *(i.e. 1 PCB with option cut-aways + <abbr title="Do Not Populate">DNP</abbr> build sets)*:
   - [ ] Option: 1-key support, MX or Choc *(:bulb: from [Adafruit NeoKey Trinkey](https://www.adafruit.com/product/5020))*
   - [ ] Option: Rotary Encoder *(:bulb: from [Adafruit Rotary Trinkey](https://www.adafruit.com/product/4964))*
