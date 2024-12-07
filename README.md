@@ -4,21 +4,22 @@
 
 ## Intent
 
-A 1-key<small><sup>1</sup></small> *"keyboard"* with QMK f/w.
+A 1-key<small><sup>1</sup></small> *"keyboard"* development set, with QMK, ZMK and custom f/w.
 
-> <sup>1</sup> = maybe 1 key, since that is optional.  Also optional is the WiFi receiver :smile:
+<p align="center"><img src="./docs/vr01-top.png" width="480"></p>
 
 
-## Planned Features
+## Features
 
-- [ ] QMK build
-- [ ] MCU *TBD.* *(must be something small; ¿LQFP-32 footprint => `STM32F042K6T6`?)*
-- A few options *(i.e. 1 PCB with option cut-aways + <abbr title="Do Not Populate">DNP</abbr> build sets)*:
-  - [ ] Option: 1-key support, MX or Choc *(:bulb: from [Adafruit NeoKey Trinkey](https://www.adafruit.com/product/5020))*
-  - [ ] Option: Rotary Encoder *(:bulb: from [Adafruit Rotary Trinkey](https://www.adafruit.com/product/4964))*
-  - [ ] Option: ESP32 receiver *(:bulb: from [https://store.aprbrother.com/product/wifi-hid-injector](WiFi HID Injector))*
-  - [ ] ?? IR receiver *(:bulb: from [Snipeye Uno V4](https://switchoddities.com/products/uno-v4-usb-c))*
-  - [ ] ?? `TTP223` Touch module
+This is not a "keyboard" per-se, it's a PCB that allows you you, with a **SeeedStudio** <a href="https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html">XIAO RP2040</a> or <a href="https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html">XIAO nRF52840</a> module, to build:
+
+* a 1-key MX-switch keyboard, with an RGB LED, <br>- *or* -
+* a 1-key HE *(Hall Effect)* switch keyboard, with a white LED, <br>- *or* -
+* a EC11 Rotary Encoder, with 4 RGB LED's, <br>- *or* -
+* a WHID solution, when paired with a **SeeedStudio**:
+  * <a href="https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html">XIAO ESP32C3</a> module, *or*
+  * <a href="https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html">XIAO ESP32S3</a> module, *or*
+  * <a href="https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32C6-p-5884.html">XIAO ESP32C6</a> module.
 
 
 ## Why?
@@ -31,11 +32,16 @@ This project is that idea, but modern.  *(The WHID Cactus is a ATmega 32u4 and E
 
 And then the tough was:  Why not also make it a Adafruit NeoKey Trinkey- / DigiSpark ATtiny85 USB key- ... -like 1 key?
 
-## Possible BIG issues
 
-- Finding a case for this.  BYO (3D printing) or source one ???.
-- Ethical concerns with a WiFi KB, i.e. can be used as a hacker tool / "rubber ducky".
-- Will need to got to `0402` footprints on the electronics, so harder to self build.
+## Source
+
+* This repo contains the EAGLE CAD source for the PCB.
+
+* Schematic is [here](docs/vr01-revC.pdf).
+
+## Under Development
+
+I'll add more here after I've prototyped it - and built the firmware.
 
 &nbsp;<br>&nbsp;
 
