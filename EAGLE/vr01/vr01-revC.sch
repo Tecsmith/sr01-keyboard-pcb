@@ -255,6 +255,76 @@ DIN A4, landscape with extra doc field</description>
 <library name="tecsmith_custom_nick_nacks">
 <description>&lt;h1&gt;Various common components&lt;/h1&gt;</description>
 <packages>
+<package name="FIDUCIAL">
+<circle x="0" y="0" radius="0.325" width="0.65" layer="1"/>
+<circle x="0" y="0" radius="0.325" width="0.65" layer="16"/>
+<circle x="0" y="0" radius="0.65" width="1.3" layer="29"/>
+<circle x="0" y="0" radius="0.65" width="1.3" layer="30"/>
+<circle x="0" y="0" radius="0.975" width="0.65" layer="41"/>
+<circle x="0" y="0" radius="0.975" width="0.65" layer="42"/>
+<circle x="0" y="0" radius="0.975" width="0.65" layer="40"/>
+<circle x="0" y="0" radius="0.975" width="0.65" layer="39"/>
+</package>
+<package name="JST04_1MM_RA">
+<description>&lt;h3&gt;SMD- 4 Pin Right Angle &lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:4&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_04&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="-1.5" y1="-4.6" x2="1.5" y2="-4.6" width="0.2032" layer="21"/>
+<wire x1="-3" y1="-2" x2="-3" y2="-0.35" width="0.2032" layer="21"/>
+<wire x1="2.25" y1="-0.35" x2="3" y2="-0.35" width="0.2032" layer="21"/>
+<wire x1="3" y1="-0.35" x2="3" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-3" y1="-0.35" x2="-2.25" y2="-0.35" width="0.2032" layer="21"/>
+<circle x="-2.5" y="0.3" radius="0.1016" width="0.2032" layer="21"/>
+<smd name="NC2" x="-2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
+<smd name="NC1" x="2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
+<smd name="1" x="-1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<smd name="2" x="-0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<smd name="3" x="0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<smd name="4" x="1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<text x="-1.397" y="-2.159" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.651" y="-3.302" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
+<package name="JST04_1MM_VERT">
+<description>&lt;h3&gt;Vertical Qwiic Connector&lt;/h3&gt;
+
+&lt;p&gt;Physical and Electrical Charactersistics&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Voltage Rating: 50V&lt;/li&gt;
+&lt;li&gt;Current Rating 1.0A&lt;/li&gt;
+&lt;li&gt;Contact Resistance: 20 milliohms&lt;/li&gt;
+&lt;li&gt;ROHS Compliant&lt;/li&gt;
+&lt;li&gt;SMD Pitch: 1mm&lt;/li&gt;
+&lt;li&gt;Small pad size: .6mm x 1.55mm&lt;/li&gt;
+&lt;li&gt;Large pad size: 1.2mm x 2.0mm&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<text x="0.016" y="4.56633125" size="0.6096" layer="25">&gt;NAME</text>
+<text x="0.016" y="-1.29633125" size="0.6096" layer="27">&gt;VALUE</text>
+<smd name="1" x="-1.478" y="0.775" dx="0.6" dy="1.55" layer="1"/>
+<smd name="2" x="-0.478" y="0.775" dx="0.6" dy="1.55" layer="1"/>
+<smd name="3" x="0.522" y="0.775" dx="0.6" dy="1.55" layer="1"/>
+<smd name="4" x="1.522" y="0.775" dx="0.6" dy="1.55" layer="1"/>
+<smd name="NC1" x="-2.778" y="3.2" dx="1.2" dy="2" layer="1"/>
+<smd name="NC2" x="2.822" y="3.2" dx="1.2" dy="2" layer="1"/>
+<wire x1="1.912" y1="3.87" x2="-1.878" y2="3.87" width="0.2032" layer="21"/>
+<wire x1="-3.218" y1="1.33" x2="-3.218" y2="0.68" width="0.2032" layer="21"/>
+<wire x1="-3.218" y1="0.68" x2="-2.458" y2="0.68" width="0.2032" layer="21"/>
+<wire x1="3.272" y1="1.35" x2="3.272" y2="0.66" width="0.2032" layer="21"/>
+<wire x1="3.272" y1="0.66" x2="2.542" y2="0.66" width="0.2032" layer="21"/>
+<circle x="-1.948" y="-0.43" radius="0.2032" width="0" layer="21"/>
+<wire x1="-2.921" y1="3.556" x2="-3.302" y2="3.556" width="0.1" layer="51"/>
+<wire x1="-3.302" y1="3.556" x2="-3.302" y2="3.175" width="0.1" layer="51"/>
+<wire x1="-3.302" y1="3.175" x2="-2.921" y2="3.175" width="0.1" layer="51"/>
+<wire x1="2.945" y1="3.154" x2="3.326" y2="3.154" width="0.1" layer="51"/>
+<wire x1="3.326" y1="3.154" x2="3.326" y2="3.535" width="0.1" layer="51"/>
+<wire x1="3.326" y1="3.535" x2="2.945" y2="3.535" width="0.1" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="VCC-3V3">
@@ -282,6 +352,32 @@ DIN A4, landscape with extra doc field</description>
 <text x="0" y="-4.572" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
 <wire x1="-1.27" y1="-3.175" x2="1.27" y2="-3.175" width="0.254" layer="94"/>
 <wire x1="-0.635" y1="-3.81" x2="0.635" y2="-3.81" width="0.254" layer="94"/>
+</symbol>
+<symbol name="FIDUCIAL-2">
+<text x="0" y="0" size="1.778" layer="94" align="center">F</text>
+<circle x="0" y="0" radius="1.778" width="0.254" layer="94"/>
+</symbol>
+<symbol name="I2C_STANDARD">
+<description>&lt;h3&gt;SparkFun I&lt;sup&gt;2&lt;/sup&gt;C Standard Pinout Header&lt;/h3&gt;
+&lt;p&gt;SparkFun has standardized on a pinout for all I&lt;sup&gt;2&lt;/sup&gt;C based sensor breakouts.&lt;br&gt;</description>
+<wire x1="3.81" y1="-5.08" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="3.81" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="3.81" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="2.54" y2="5.08" width="0.6096" layer="94"/>
+<text x="-5.08" y="-5.334" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<text x="-5.08" y="7.874" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<pin name="1" x="7.62" y="-2.54" visible="pad" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
+<pin name="2" x="7.62" y="0" visible="pad" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
+<pin name="3" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="4" x="7.62" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<text x="-4.572" y="2.54" size="1.778" layer="94" font="vector" align="center-left">SDA</text>
+<text x="-4.572" y="0" size="1.778" layer="94" font="vector" align="center-left">VCC</text>
+<text x="-4.572" y="-2.54" size="1.778" layer="94" font="vector" align="center-left">GND</text>
+<text x="-4.572" y="5.08" size="1.778" layer="94" font="vector" align="center-left">SCL</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -319,6 +415,59 @@ DIN A4, landscape with extra doc field</description>
 <device name="">
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FIDUCIAL">
+<gates>
+<gate name="G$1" symbol="FIDUCIAL-2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FIDUCIAL">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="QWIIC_CONNECTOR" prefix="J" uservalue="yes">
+<description>&lt;h3&gt;SparkFun I&lt;sup&gt;2&lt;/sup&gt;C Standard Qwiic Connector&lt;/h3&gt;
+An SMD 1mm pitch JST connector makes it easy and quick (get it? Qwiic?) to connect I&lt;sup&gt;2&lt;/sup&gt;C devices to each other. The &lt;a href=”http://www.sparkfun.com/qwiic”&gt;Qwiic system&lt;/a&gt; enables fast and solderless connection between popular platforms and various sensors and actuators.
+
+&lt;br&gt;&lt;br&gt;
+
+We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a&gt;, &lt;a href=”https://www.sparkfun.com/products/14205”&gt;100mm&lt;/a&gt;, &lt;a href=”https://www.sparkfun.com/products/14206”&gt;50mm&lt;/a&gt;, and &lt;a href=”https://www.sparkfun.com/products/14207”&gt;breadboard friendly&lt;/a&gt; Qwiic cables. We also offer &lt;a href=”https://www.sparkfun.com/products/14323”&gt;10 pcs strips&lt;/a&gt; the SMD connectors.</description>
+<gates>
+<gate name="G$1" symbol="I2C_STANDARD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="JS-1MM" package="JST04_1MM_RA">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-13694" constant="no"/>
+<attribute name="VALUE" value="QWIIC_RIGHT_ANGLE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="" package="JST04_1MM_VERT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-14483" constant="no"/>
+<attribute name="VALUE" value="Vertical Qwiic Connector" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -11307,6 +11456,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C6B" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="C6A" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="GND6" library="tecsmith_custom_nick_nacks" deviceset="GND" device=""/>
+<part name="U$2" library="tecsmith_custom_nick_nacks" deviceset="FIDUCIAL" device=""/>
+<part name="U$4" library="tecsmith_custom_nick_nacks" deviceset="FIDUCIAL" device=""/>
+<part name="U$5" library="tecsmith_custom_nick_nacks" deviceset="FIDUCIAL" device=""/>
+<part name="J10" library="tecsmith_custom_nick_nacks" deviceset="QWIIC_CONNECTOR" device="JS-1MM" value="QWIIC_RIGHT_ANGLE"/>
+<part name="J11" library="tecsmith_custom_nick_nacks" deviceset="QWIIC_CONNECTOR" device="JS-1MM" value="QWIIC_RIGHT_ANGLE"/>
+<part name="U$6" library="tecsmith_custom_nick_nacks" deviceset="3V3" device=""/>
+<part name="U$10" library="tecsmith_custom_nick_nacks" deviceset="3V3" device=""/>
+<part name="GND7" library="tecsmith_custom_nick_nacks" deviceset="GND" device=""/>
+<part name="GND8" library="tecsmith_custom_nick_nacks" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11622,6 +11780,29 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND6" gate="1" x="190.5" y="83.82" smashed="yes">
 <attribute name="VALUE" x="190.5" y="79.248" size="1.778" layer="96" align="top-center"/>
 </instance>
+<instance part="U$2" gate="G$1" x="157.48" y="5.08" smashed="yes"/>
+<instance part="U$4" gate="G$1" x="152.4" y="5.08" smashed="yes"/>
+<instance part="U$5" gate="G$1" x="147.32" y="5.08" smashed="yes"/>
+<instance part="J10" gate="G$1" x="175.26" y="106.68" smashed="yes">
+<attribute name="VALUE" x="170.18" y="101.346" size="1.778" layer="96" font="vector" align="top-left"/>
+<attribute name="NAME" x="170.18" y="114.554" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="J11" gate="G$1" x="203.2" y="106.68" smashed="yes">
+<attribute name="VALUE" x="198.12" y="101.346" size="1.778" layer="96" font="vector" align="top-left"/>
+<attribute name="NAME" x="198.12" y="114.554" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="U$6" gate="G$1" x="185.42" y="106.68" smashed="yes" rot="R270">
+<attribute name="VALUE" x="190.5" y="106.68" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+</instance>
+<instance part="U$10" gate="G$1" x="213.36" y="106.68" smashed="yes" rot="R270">
+<attribute name="VALUE" x="218.44" y="106.68" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+</instance>
+<instance part="GND7" gate="1" x="185.42" y="104.14" smashed="yes" rot="R90">
+<attribute name="VALUE" x="189.992" y="104.14" size="1.778" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="GND8" gate="1" x="213.36" y="104.14" smashed="yes" rot="R90">
+<attribute name="VALUE" x="217.932" y="104.14" size="1.778" layer="96" rot="R90" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -11686,6 +11867,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="182.88" y1="147.32" x2="172.72" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="149.86" x2="182.88" y2="147.32" width="0.1524" layer="91"/>
 <junction x="182.88" y="147.32"/>
+</segment>
+<segment>
+<pinref part="J10" gate="G$1" pin="2"/>
+<wire x1="182.88" y1="106.68" x2="185.42" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="U$6" gate="G$1" pin="VCC3"/>
+</segment>
+<segment>
+<pinref part="J11" gate="G$1" pin="2"/>
+<wire x1="210.82" y1="106.68" x2="213.36" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="U$10" gate="G$1" pin="VCC3"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -11836,6 +12027,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="182.88" y="86.36"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="190.5" y1="86.36" x2="190.5" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J10" gate="G$1" pin="1"/>
+<wire x1="182.88" y1="104.14" x2="185.42" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="GND7" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J11" gate="G$1" pin="1"/>
+<wire x1="210.82" y1="104.14" x2="213.36" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="GND8" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="VCC5" class="0">
@@ -12215,6 +12416,42 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J5" gate="J1" pin="1"/>
 <wire x1="236.22" y1="160.02" x2="231.14" y2="160.02" width="0.1524" layer="91"/>
 <label x="231.14" y="160.02" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="SCL" class="0">
+<segment>
+<pinref part="J5" gate="J1" pin="6"/>
+<wire x1="236.22" y1="147.32" x2="233.68" y2="147.32" width="0.1524" layer="91"/>
+<label x="231.14" y="144.78" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="233.68" y1="147.32" x2="233.68" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="144.78" x2="231.14" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J10" gate="G$1" pin="4"/>
+<wire x1="182.88" y1="111.76" x2="185.42" y2="111.76" width="0.1524" layer="91"/>
+<label x="185.42" y="111.76" size="1.4224" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J11" gate="G$1" pin="4"/>
+<wire x1="210.82" y1="111.76" x2="213.36" y2="111.76" width="0.1524" layer="91"/>
+<label x="213.36" y="111.76" size="1.4224" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="SDA" class="0">
+<segment>
+<pinref part="J5" gate="J1" pin="5"/>
+<wire x1="236.22" y1="149.86" x2="231.14" y2="149.86" width="0.1524" layer="91"/>
+<label x="231.14" y="149.86" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J10" gate="G$1" pin="3"/>
+<wire x1="182.88" y1="109.22" x2="185.42" y2="109.22" width="0.1524" layer="91"/>
+<label x="185.42" y="109.22" size="1.4224" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J11" gate="G$1" pin="3"/>
+<wire x1="210.82" y1="109.22" x2="213.36" y2="109.22" width="0.1524" layer="91"/>
+<label x="213.36" y="109.22" size="1.4224" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
