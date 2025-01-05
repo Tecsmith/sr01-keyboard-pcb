@@ -454,9 +454,9 @@ ESP32</text>
 <vertex x="20.32" y="3.81"/>
 <vertex x="19.05" y="3.81"/>
 </polygon>
-<text x="11.43" y="13.97" size="1.016" layer="26" rot="MR270" align="center">Tecsmith VR01</text>
+<text x="11.43" y="13.97" size="1.016" layer="26" rot="MR270" align="center">Tecsmith SR01</text>
 <text x="9.763125" y="11.985625" size="1.016" layer="26" rot="MR270" align="center">(c) 2024</text>
-<text x="8.255" y="13.97" size="1.016" layer="26" rot="MR270" align="center">Vino Rodrigues</text>
+<text x="8.255" y="13.97" size="1.016" layer="26" rot="MR270" align="center">Silvino Rodrigues</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:513">

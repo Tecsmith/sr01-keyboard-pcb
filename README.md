@@ -1,4 +1,4 @@
-# VR01-Keyboard-PCB
+# SR01-Keyboard-PCB
 
 <p align="center"><img src="docs/donotbuild.min.svg" alt="Under Construction" width="320"></p>
 
@@ -6,7 +6,7 @@
 
 A 1-key<small><sup>1</sup></small> *"keyboard"* development set, with QMK, ZMK and custom f/w.
 
-<p align="center"><img src="./docs/vr01-top.png" width="480"></p>
+<p align="center"><img src="./docs/sr01-top.png" width="480"></p>
 
 
 ## Features
@@ -24,7 +24,7 @@ This is not a "keyboard" per-se, it's a PCB that allows you you, with a **SeeedS
 
 ## Why?
 
-When I built the VR61, one of the MicroMod modules I wanted to build for was the [SparkFun MicroMod ESP32 Processor](https://www.sparkfun.com/products/16781).. and for that I bought a [April Brother WHID Cactus](https://store.aprbrother.com/product/wifi-hid-injector) ... and then never got around to it.
+When I built the SR61, one of the MicroMod modules I wanted to build for was the [SparkFun MicroMod ESP32 Processor](https://www.sparkfun.com/products/16781).. and for that I bought a [April Brother WHID Cactus](https://store.aprbrother.com/product/wifi-hid-injector) ... and then never got around to it.
 
 The intent was to create a Wireless KB *(like a BT or 2.4GHz KB, but with WiFi)*, and also a whole bunch of additional features like a virtual web-KB, or the ability to configure the keys via it's own web interface.
 
@@ -37,7 +37,7 @@ And then the tough was:  Why not also make it a Adafruit NeoKey Trinkey- / DigiS
 
 * This repo contains the EAGLE CAD source for the PCB.
 
-* Schematic is [here](docs/vr01-revC.pdf).
+* Schematic is [here](docs/sr01-revC.pdf).
 
 ## Under Development
 
@@ -46,4 +46,4 @@ I'll add more here after I've prototyped it - and built the firmware.
 &nbsp;<br>&nbsp;
 
 ---
-Made with :heart: by Vino Rodrigues
+Made with :heart: by Silvino Rodrigues
