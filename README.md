@@ -2,7 +2,7 @@
 
 <p align="center"><img src="docs/donotbuild.min.svg" alt="Under Construction" width="320"></p>
 
-> **Note:** Rev "D" is a full redo in KiCAD, and is a WIP *(Work In Progress)* -- so, not suitable to build just yet.
+> **Note:** Rev "D" is a full redo in KiCAD, and has not been tested -- so, not suitable to build just yet.
 
 ## Intent
 
@@ -19,8 +19,8 @@ This is not a "keyboard" per-se, it's a PCB that allows you you, with a **SeeedS
 * a 1-key MX-switch keyboard, with an RGB LED, <br>- *or* -
 * a EC11 Rotary Encoder, with 4 RGB LED's, <br>- *or* -
 * a 1-key HE *(Hall Effect)* switch keyboard, with a RGB LED, <br>- *or* -
-<!-- * a 1-key EC *(Electrro Capacitance)* switch keyboard, <br>-  -->
-* a WHID solution, when paired with a **SeeedStudio**:
+* a 1-key EC *(Electrro Capacitance)* switch keyboard, <br> - *or* -
+* a WHID solution, when *(the XIAO RP2040 is)* paired with a **SeeedStudio**:
   * <a href="https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32C6-p-5884.html">XIAO ESP32C6</a> module. [*Recommended*] , *- or -*
   * <a href="https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html">XIAO ESP32C3</a> module, *- or -*
   * <a href="https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html">XIAO ESP32S3</a> module
@@ -35,12 +35,6 @@ The intent was to create a Wireless KB *(like a BT or 2.4GHz KB, but with WiFi)*
 
 This project is evolution of that idea.  *(The WHID Cactus is a ATmega 32u4 and ESP-12S combo. Old and limited.)*
 
-And then the tough was:  Why not also make it a Adafruit NeoKey Trinkey- / DigiSpark ATtiny85 USB key- ... -like 1 key?
+And then the thought was: Why not also make it a Adafruit NeoKey Trinkey- / DigiSpark ATtiny85 USB key- ... -like one key?
 
-Anyway ... what came out is a platform to build 1-key solutions for testing features, or just to have a quick volume control / sleep keep-alive / whatever ... [*Software examples TBA*]
-
----
-
-<p align="center">
-  Made with ❤️
-</p>
+Anyway ... what came out is a platform to build 1-key solutions for testing features, or just to have a quick volume control / sleep keep-alive / whatever you want to **play** with ... [*Software examples TBA*]

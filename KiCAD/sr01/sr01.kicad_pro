@@ -665,7 +665,7 @@
         "uuid": "14b1b847-8d10-4f1d-86d9-3e433332402f"
       }
     ],
-    "used_designators": "",
+    "used_designators": "TPV1,TPC1,TPG1,TPA1,#PWR81-82,TPR1,TP1-5",
     "variants": []
   },
   "sheets": [
